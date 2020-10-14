@@ -40,7 +40,7 @@ h1 {
 }
 
 
-@media only screen  and (min-width:224px){
+@media only screen  and (min-width:350px){
 
     #calc-wrapper {
 	background-color: blueviolet;
