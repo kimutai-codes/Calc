@@ -1,67 +1,51 @@
-/* modile first */
 * {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
+
 }
 
 h1 {
 	text-align: center;
 }
 
-#calc-wrapper {
-	margin: auto;
-	background-color: aquamarine;
+
+
+.calc{
+	background-color: aqua;
+	width: fit-content;
 	height: auto;
-	padding: 6px;
+	margin: auto;
+	padding: 32px;
 	border-radius: 5%;
+	text-align: center;
 }
-
-
 
 .input {
-	width: 80%;
-	border: none;
-	padding: 3%;
-    border-radius: 5px;
+	font-size: 3em;
+	background-color:aliceblue;
+	height: 70px;
+	padding: 13px;
+	border-radius: 5px;
+	width: 70%;
 }
 
-
+.buttons {
+	display: grid;
+	grid-template-columns:100px 100px 100px;
+	margin: 15px;
+	grid-column-gap: 30px;
+}
 
 .buttons button {
 	text-decoration: none;
 	text-align: center;
 	border: none;
-	display: inline;
-	padding: 10%;
+	display: inline-block;
+	padding: 4%;
 	border-radius: 12px;
-	width: fit-content;
-	margin: 2%;
+	margin-bottom: 57%;
+	font-size: 3em;
+	font-weight: bold;
 }
 
-
-@media only screen  and (min-width:350px){
-
-    #calc-wrapper {
-	background-color: blueviolet;
-	width: 60%;
-}
-
-    .buttons {
-	display: grid;
-	grid-template-columns: auto auto auto;
-}
-
-
-}
-
-@media only screen and (min-width:600px){
-    #calc-wrapper{
-        background-color: cadetblue;
-        width: 70%;
-    }
-
-    .buttons button{
-        font-size: 3em;
-    }
-}
