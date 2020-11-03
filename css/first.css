@@ -2,7 +2,6 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-
 }
 
 h1 {
@@ -10,9 +9,10 @@ h1 {
 }
 
 
-
 .calc{
 	background-color: aqua;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
 	width: fit-content;
 	height: auto;
 	margin: auto;
@@ -41,7 +41,6 @@ h1 {
 	text-decoration: none;
 	text-align: center;
 	border: none;
-	display: inline-block;
 	padding: 4%;
 	border-radius: 12px;
 	margin-bottom: 57%;
