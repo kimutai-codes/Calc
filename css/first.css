@@ -4,12 +4,8 @@
 	box-sizing: border-box;
 }
 
-h1 {
-	text-align: center;
-}
 
-
-.calc{
+.calc {
 	background-color: aqua;
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
@@ -22,20 +18,12 @@ h1 {
 }
 
 .input {
-	font-size: 3em;
-	background-color:aliceblue;
-	height: 70px;
-	padding: 13px;
-	border-radius: 5px;
-	width: 70%;
+	background-color: aliceblue;
+	width: 80%;
+	height: auto;
 }
 
-.buttons {
-	display: grid;
-	grid-template-columns:100px 100px 100px;
-	margin: 15px;
-	grid-column-gap: 30px;
-}
+
 
 .buttons button {
 	text-decoration: none;
@@ -47,4 +35,3 @@ h1 {
 	font-size: 3em;
 	font-weight: bold;
 }
-
